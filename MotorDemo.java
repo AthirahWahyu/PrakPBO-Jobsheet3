@@ -25,7 +25,7 @@ public class MotorDemo {
         if (!motor2.isMesinOn && kecepatanBaru > 0) {
             System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin off"); 
         } else {
-            motor1.kecepatan = kecepatanBaru;
+            motor2.kecepatan = kecepatanBaru;
         }
 
         motor2.displayStatus();
@@ -38,9 +38,9 @@ public class MotorDemo {
         if (!motor3.isMesinOn && kecepatanBaru > 0) {
             System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin off"); 
         } else {
-            motor1.kecepatan = kecepatanBaru;
+            motor3.kecepatan = kecepatanBaru;
         }
-        
+
         motor3.displayStatus();
     }
 }
